@@ -1,0 +1,7 @@
+// 2. Function that takes an array of numbers and returns the sum.
+function sumArray(arr) {
+  // handles empty arrays
+  let sum = 0;
+  for (let i = 0; i < arr.length; i++) sum += arr[i];
+  return sum;
+}
