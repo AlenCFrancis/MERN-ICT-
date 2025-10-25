@@ -1,0 +1,7 @@
+// 4. Function that checks if a number is even or odd.
+function isEven(num) {
+  return num % 2 === 0; // returns true for even, false for odd
+}
+function evenOrOddString(num) {
+  return `${num} is ${isEven(num) ? "Even" : "Odd"}`;
+}
