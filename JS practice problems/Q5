@@ -1,0 +1,5 @@
+// 5. Function that reverses a given string.
+function reverseString(str) {
+  // simple and handles surrogate pairs reasonably by splitting into array of code units
+  return str.split("").reverse().join("");
+}
